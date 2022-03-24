@@ -388,6 +388,7 @@ This is a basic example, where we just set the location of the playbook file :
         ansible.playbook = "nextcloud_playbook1.yml"
     #    ansible.playbook = "nextcloud_playbook2.yml"
     #    ansible.playbook = "nextcloud_playbook3.yml"
+    #    ansible.verbose = 'vvv' #accepted values: from 'v' to 'vvvv
       end
     end
 
