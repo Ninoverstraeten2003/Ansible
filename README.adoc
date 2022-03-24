@@ -35,15 +35,15 @@ Do 1 to 5 in https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners
           v.linked_clone = true
     end
     config.vm.define "master" do |master|
-        master.vm.box = "debian/bullseye64"
+        master.vm.box = "swenr/debian"
         master.vm.hostname= "master"
     end
     config.vm.define "node1" do |node1|
-        node1.vm.box = "debian/bullseye64"
+        node1.vm.box = "swenr/debian"
         node1.vm.hostname= "node1"
     end
     config.vm.define "node2" do |node2|
-        node2.vm.box = "debian/bullseye64"
+        node2.vm.box = "swenr/debian"
         node2.vm.hostname= "node2"
     end
     end
@@ -69,17 +69,17 @@ Do 1 to 5 in https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners
       v.linked_clone = true
     end
     config.vm.define "master" do |master|
-        master.vm.box = "debian/bullseye64"
+        master.vm.box = "swenr/debian"
         master.vm.hostname= "master"
         master.vm.network "private_network", ip: "10.10.10.10"
     end
     config.vm.define "node1" do |node1|
-        node1.vm.box = "debian/bullseye64"
+        node1.vm.box = "swenr/debian"
         node1.vm.hostname= "node1"
         node1.vm.network "private_network", ip: "10.10.10.20"
     end
     config.vm.define "node2" do |node2|
-        node2.vm.box = "debian/bullseye64"
+        node2.vm.box = "swenr/debian"
         node2.vm.hostname= "node2"
         node2.vm.network "private_network", ip: "10.10.10.21"
     end
