@@ -274,7 +274,7 @@ Read this https://www.ansible.com/blog/getting-started-writing-your-first-playbo
 == Exercises
 === Exercises 1
 
-Create a playbook that installs and configures a Tomcat server on the **nodes** host group. Read the playbook and explain the different tasks containing it. Reference to the vagrant.zip file on Toledo. 
+Create a playbook that installs and configures a Tomcat server on the **nodes** host group. Read the playbook and explain the different tasks containing it. Reference to the vagrant.zip file. 
 
 
     ---
