@@ -77,13 +77,11 @@ Do 1 to 5 in https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners
         node1.vm.box = "swenr/debian"
         node1.vm.hostname= "node1"
         node1.vm.network "private_network", ip: "10.10.10.20"
-        node1.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
     end
     config.vm.define "node2" do |node2|
         node2.vm.box = "swenr/debian"
         node2.vm.hostname= "node2"
         node2.vm.network "private_network", ip: "10.10.10.21"
-        node2.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
     end
     end
 
