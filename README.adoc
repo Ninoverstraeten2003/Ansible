@@ -163,8 +163,8 @@ If you don’t know how to use the module or which arguments are optional or req
 
 * Try the following commands:
 
-  `ansible -k -i inventory nodes -m command -a ’echo "JAJA" >> /tmp/JAJA’`
-  `ansible -k -i inventory nodes -m shell -a ’echo "JAJA" >> /tmp/JAJA’`
+  ansible -k -i inventory nodes -m command -a ’echo "JAJA" >> /tmp/JAJA’
+  ansible -k -i inventory nodes -m shell -a ’echo "JAJA" >> /tmp/JAJA’
   
 ** Explain and TEST the difference in behavior between the two commands.
 *** Tip: https://blog.confirm.ch/ansible-modules-shell-vs-command/
