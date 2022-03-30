@@ -85,6 +85,7 @@ Do 1 to 5 in https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners
         node2.vm.network "private_network", ip: "10.10.10.21"
         node2.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
     end
+    end
 
 
 
