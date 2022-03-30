@@ -135,7 +135,7 @@ The default syntax for using an Ansible module in an *ad hoc command* is: `ansib
 
 For example:
   
-  ansible -i inventroy-file webservers -m <modulename> -a <arguments to the module>
+  ansible -i inventory-file webservers -m <modulename> -a <arguments to the module>
 
 
 If you don’t know how to use the module or which arguments are optional or required, you can use the command `ansible-doc -l` for an overview of all available modules on the system and `ansible-doc *module-name*` for specific module details.
