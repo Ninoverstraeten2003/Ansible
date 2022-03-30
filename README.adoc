@@ -26,7 +26,7 @@ Do 1 to 5 in https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners
 
 == Setting up the environment
 
-* Make a Vagrant multimachine configuration with three machines: one master node named *master* (generic/freebsd12) and two slave nodes (generic/debian11) named *slave1* and *slave2*.
+* Make a Vagrant multimachine configuration with three machines: one master node named *master* (swenr/debian) and two slave nodes (swenr/debian) named *node1* and *node2*.
 
 
     Vagrant.configure("2") do |config|
